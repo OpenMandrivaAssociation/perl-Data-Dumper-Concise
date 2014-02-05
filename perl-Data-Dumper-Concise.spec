@@ -1,15 +1,15 @@
 %define upstream_name    Data-Dumper-Concise
-%define upstream_version 2.020
+%define upstream_version 2.021
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Less indentation and newlines plus sub deparsing
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Data/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Data/Data-Dumper-Concise-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Devel::ArgNames)
@@ -92,3 +92,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sat Nov 14 2009 cpan2dist 1.001-1mdv
 - initial mdv release, generated with cpan2dist
+
