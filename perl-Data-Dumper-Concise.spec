@@ -1,11 +1,12 @@
 %define upstream_name    Data-Dumper-Concise
-%define upstream_version 2.022
+%define upstream_version 2.023
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Less indentation and newlines plus sub deparsing
+
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
