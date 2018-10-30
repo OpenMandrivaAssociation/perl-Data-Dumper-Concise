@@ -16,6 +16,7 @@ Source0:	http://www.cpan.org/modules/by-module/Data/%{upstream_name}-%{upstream_
 BuildRequires:	perl-devel
 BuildRequires:	perl(Devel::ArgNames)
 BuildRequires:	perl(ExtUtils::MakeMaker)
+BuildRequires:	perl(Test::More)
 
 BuildArch:	noarch
 
